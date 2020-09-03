@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:black;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    margin: 22px;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+}
+
+#menu ul{
+    padding: 50px;
+}
+
+#menu ul li{
+    padding:2px 20px;
+    font-size: 20px;
+    display: inline-block;
+    background-color:white;
+    border-radius: 5px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color:white;
+}
+
+#menu ul li ul#sub{
+    display: none;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+
+#menu ul li ul#sub li{
+    display: block;
+}
+
+#menu ul li:hover ul#sub{
+    display: block;
+} 
